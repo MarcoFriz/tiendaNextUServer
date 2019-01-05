@@ -7,7 +7,7 @@ const shop = require('./products.js')
 
 const PORT = 8082;
 const app = express()
-var url = "mongodb://localhost/tienda"
+var url = "mongodb://localhost/tiendaMarcoFriz"
 
 const Server = http.createServer(app, res => {
 	res.setHeader('Content-Type', 'application/json')
